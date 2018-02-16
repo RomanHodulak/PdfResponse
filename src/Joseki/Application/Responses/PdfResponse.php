@@ -103,7 +103,7 @@ class PdfResponse implements Nette\Application\IResponse
     /** @var string ORIENTATION_PORTRAIT or ORIENTATION_LANDSCAPE */
     private $pageOrientation = self::ORIENTATION_PORTRAIT;
 
-    /** @var string see second parameter ($format) at https://mpdf.github.io/reference/mpdf-functions/mpdf.html */
+    /** @var string see second parameter ($format) at https://mpdf.github.io/reference/mpdf-functions/construct.html */
     private $pageFormat = "A4";
 
     /** @var string margins: top, right, bottom, left, header, footer */
